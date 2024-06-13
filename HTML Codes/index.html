@@ -51,7 +51,7 @@
     <br>
     <video src="assest/WhatsApp Video 2024-06-09 at 22.38.41_3be7f1d0.mp4"
     alt="random video"
-    height="200px"
+    height="200px" width="200"
     controls loop mute></video>
     <!--This is to add vedio in the web page but the video must be in offline state-->
     <br>
@@ -132,6 +132,7 @@
             <!--in <ul> tag bullet points are add and in <ol> instead of bullet points numbers are present-->
         </aside>
         <br>
+        <h1><big>Registration form</big></h1>
         <form action="/action.php">
             <input type="text" placeholder="type your name">
             <br>
@@ -162,22 +163,39 @@
             <label for="maths">
                 <input type="checkbox" value="maths" name="subject"
                 id="10">Mathametics
-            </label>
+            </label><br>
             <label for="physic">
                 <input type="checkbox" value="physic" name="subject"
                 id="10">Physic
-            </label>
+            </label><br>
             <label for="chemistry">
                 <input type="checkbox" value="chemistry" name="subject"
                 id="10">Chemistry
-            </label>
+            </label><br>
             <!--when we use label if we click on the displayed text the option gets selected-->
+            <textarea name="feedback" id="100" placeholder="give urs feedback" row="5">Feedback
+            </textarea>
+            <br><br>
+            <select name="State">
+                <option value="Delhi">Delhi</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Mumbai">Mumbai</option>
+            </select>
+            <!--<select> tag is used to create a sliding option selector-->
+                <br>
+                <br>
+                <input type="submit" value="submit">
+                <!--type submit create a submit button that submits the form-->
         </form>
         <!--The <form> tag is to create a input block also action is used to send data to the database-->
         <!--the same name allow to just select one of the options the word written outside the <input> is displayed over the screen -->
         <!--Considering the backend when we select on of the 2 options the value at that selected is stored not the displayed value so the original value is in value=""-->
         <!--The <aside>tag is not in the main but it is extra information or recommendation which is related to content also used to add ads in page-->
-<hr>
+        
+            <hr><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rnJqEURZaSg?si=k5MNxeAfZAoPljtE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!--<iframe> tag is used to add other website on your page include youTube videos-->
+        <hr>
         <header><h1>Block/Inline Elements</h1></header>
         <!--Check this in inspect over web page-->
         <p>Lorem ipsum dolor sit amet.</p>
