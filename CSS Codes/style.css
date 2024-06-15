@@ -1,0 +1,97 @@
+h3{
+    color:blue;
+}
+p{
+    color:grey;
+}
+button{
+    color:aqua;
+    background-color: yellow;
+}
+body{
+    background-color:black;
+}
+/*RGB color system
+color: rgb(255,0,0)-red
+color: rgb(0,255,0)-green
+total = 255 of all three
+color = (255,255,0)yellow
+*/
+body{
+    background-color: rgb(255,255,0 );
+}
+
+/*HEX Color system
+color=#ff0000 red
+color=#00ff00 green
+*/
+
+body{
+    background-color: #ff00ff;
+}
+/*
+Universal selector
+ *{}
+*/
+*{
+    color:blue;
+}
+/*
+Element Selector
+h1{}
+*/
+h1{
+    color:blue;
+}
+/*ID selector
+ #id{}
+*/
+#idselector{
+    color:rgb(237, 105, 11);
+}
+
+/*Class Selector
+.class{}
+*/
+.classselector{
+    color:green;
+}
+body{
+    background-color: white;
+}
+/* problem set 1 */
+#box{
+    background-color: pink;
+    color:black;
+}
+.heading{
+    color:red;
+}
+/* 
+OR 
+h1,h2,h3{
+    color:burlywood;
+} */
+ button{
+    background-color: green;
+ }
+ /*end of problem set1*/
+ /*Text Properties
+ text -align
+ text-align:left/right/center
+ new css3 has text-align:left/right/center/start/end
+generally : left=start but in some languages like urdu right = start and left = end
+ */
+ #example1{
+    text-align:center;
+ }
+ /*text decoration*/
+ h3{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: underline;
+} 
+a{
+    text-decoration: none;
+    /*Removes the underline*/
+}
