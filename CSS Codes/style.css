@@ -95,3 +95,68 @@ a{
     text-decoration: none;
     /*Removes the underline*/
 }
+a{
+    text-decoration: green wavy underline;
+    /*Creates a wave under the text*/
+}
+/*font-weight
+    font-weight:normal/bold/bolder/lighter/100-900*/
+#hd1{
+    font-weight: 300;
+}
+#hd2{
+    font-weight: 600;
+}
+#hd3{
+    font-weight: 1000;
+}
+#para1{
+    font-family: cursive,arial,roboto;
+}
+/*the high priority is given to arial if not available then roboto lly if we can if alternative styles if not in some devices*/
+/*
+units in CSS
+absolute
+Pixels(px)
+in 1inch i.e 2.54cm there are 96px
+16px is default
+*/
+#para2{
+    font-size:30px;
+}
+#para3{
+    font-size: 60px;
+}
+/*
+Text properties 
+line-height
+line-height:2px
+line-height-normal
+if less the line overlaps on each other*/
+#para1{
+    line-height: 60px;
+}
+/*Text properties
+text-transform
+text-transform:uppercase/lowercase/capitalize/none
+*/
+#para2{
+    text-transform: uppercase;
+}
+#para1{
+    text-transform: capitalize;
+}
+
+/*problem set 2*/
+#prob2
+{
+    text-align: center;
+    text-transform: capitalize;
+
+}
+#outer{
+    font-size:30px;
+}
+#inner{
+    font-size: 50px;
+}
