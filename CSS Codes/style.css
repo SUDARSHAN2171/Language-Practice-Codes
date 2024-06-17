@@ -158,5 +158,81 @@ text-transform:uppercase/lowercase/capitalize/none
     font-size:30px;
 }
 #inner{
-    font-size: 50px;
+    font-size: 20px;
+}
+/*Box model in CSS
+-Height
+-Width
+-border
+-padding
+-margin*/
+#outer{
+    height: 50px;
+    width: 200px;
+    background-color: pink;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: red;
+}
+#prob2{
+    width: 1000px;
+    height: 50px;
+     background-color: yellow;
+    /*border-width: 5px;
+    border-style: solid;
+    OR*/
+    border:2px dashed black; 
+    text-align: right; 
+}
+#exp1{
+    height: 200px;
+    width: 100px;
+    background-color: bisque;
+    border: 5px solid black;
+}
+
+#exp2{
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+    border: 5px solid black;
+    border-radius:50%
+}
+
+#exp3{
+    height: 200px;
+    width: 100px;
+    background-color: bisque;
+    border: 5px solid black;border-radius: 20px;
+    text-align: center;
+}
+#cc{
+    height: 200px;
+    width: 100px;
+    background-color: bisque;
+    border: 5px solid black;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin:40px;
+}
+
+#cd{
+    height: 200px;
+    width: 100px;
+    background-color: bisque;
+    border: 5px solid black;
+    text-align: center;
+    padding : 20px 60px 20px 60px;
+    margin: 10px 20px 30px 40px;
+}
+
+
+#prob3{
+    background-color: black;
+    height: 50px;
+    color: yellow;
+    text-decoration: none;
 }
