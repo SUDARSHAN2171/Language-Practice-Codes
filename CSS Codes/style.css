@@ -255,3 +255,10 @@ div{
     /* display:none this will remove the thing to be displayed*/
     /* visibility: hidden; just similar to display :none but place is reserved for elements */
 }
+/*Alpha Channel
+opacity(0 to 1)
+-RGBA
+color:rgba(255,0,0,0.5)*/
+#alp{
+    background-color: rgba(255,0,0,0.5);
+}
