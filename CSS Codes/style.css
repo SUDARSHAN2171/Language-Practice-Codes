@@ -236,3 +236,22 @@ text-transform:uppercase/lowercase/capitalize/none
     color: yellow;
     text-decoration: none;
 }
+#dev{
+    background-color: blueviolet;
+    display: inline;
+}
+#but{
+    background-color: yellow;
+    display: block;
+}
+div{
+    height: 100px;
+    width: 100px;
+    margin:25px;
+    padding:25px;
+    /* display: inline;
+    margin is not added from top and bottom when we use this */
+    display:inline-block;
+    /* display:none this will remove the thing to be displayed*/
+    /* visibility: hidden; just similar to display :none but place is reserved for elements */
+}
