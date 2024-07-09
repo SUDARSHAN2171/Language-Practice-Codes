@@ -1,4 +1,5 @@
 #taking input and displaying
+input("Enter any input : ")
 name=input("Enter your name : ")
 age=input("Enter your age : ")
 decimal_value =input("Enter any decimal value : ")
