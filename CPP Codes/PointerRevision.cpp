@@ -13,7 +13,6 @@ int main()
     array[0]=6;
     array[1]=7;
     array[2]=8;
-
     *ptr1 = 20;
     cout<<"Value of ptr1 : "<<*ptr1<<endl;
     cout<<"Value of ptr1 : "<<ptr1<<endl;
