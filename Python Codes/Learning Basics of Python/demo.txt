@@ -1,0 +1,2 @@
+This is the file create to learn the file input and output
+line 2
